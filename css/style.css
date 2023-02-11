@@ -223,6 +223,45 @@ p {
   .blue-text.text-center {
     font-size: 16px;
   }
+
+  label,
+  input {
+    font-size: 14px !important;
+  }
+}
+
+.btn.btn-outline-warning {
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-color: var(--secondary);
+  transition: 0.2s linear;
+}
+
+@media (max-width: 768px) {
+  .btn.btn-outline-warning {
+    padding: 5px 20px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+.btn.btn-outline-warning:hover {
+  text-align: center;
+  background: var(--secondary);
+  color: var(--primary);
+  border-color: var(--secondary);
+}
+
+.btn.btn-outline-warning:hover path {
+  stroke: var(--primary);
 }
 
 @media (max-width: 380px) {
