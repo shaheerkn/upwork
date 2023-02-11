@@ -1,0 +1,230 @@
+:root {
+  --primary: #2c3c8c;
+  --secondary: #eb5f31;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary);
+}
+
+.blue-text {
+  color: var(--primary);
+}
+
+.dark-text {
+  color: #9aa1c5;
+}
+
+.blue-paragraph {
+  color: #41486b;
+}
+
+.orange-text {
+  color: var(--secondary);
+}
+
+.desc-header {
+  max-width: 1400px;
+  padding-inline: 25px;
+  margin-inline: auto;
+}
+
+header ul {
+  list-style-type: none;
+  gap: 20px;
+  color: #3a4166;
+}
+
+header ul a {
+  font-size: 20px;
+  color: #3a4166;
+}
+
+@media (min-width: 768px) {
+  section {
+    background: #f6f8fe;
+  }
+}
+
+.custom-container {
+  max-width: 800px;
+  background: #fff;
+}
+
+.left-col {
+  max-width: 420px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.secondary-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.primary-paragraph {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .primary-paragraph {
+    font-size: 14px;
+  }
+
+  .secondary-heading {
+    font-size: 16px;
+  }
+}
+
+.form-left-col {
+  max-width: 235px;
+  width: 100%;
+}
+
+.fontOrange {
+  color: var(--secondary);
+}
+
+.header h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header p {
+  font-weight: 600;
+}
+
+.header p a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.main {
+  background-color: #f6f8fe;
+}
+
+.innerContent {
+  width: 80%;
+  margin: 50px 0;
+  background-color: #fff;
+}
+
+.tableBox h2 {
+  color: var(--secondary);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tableBox p {
+  color: var(--primary);
+}
+
+.department {
+  color: var(--primary);
+}
+
+.department h2 {
+  font-size: 18px;
+  color: #222;
+}
+
+.cardTitle {
+  font-size: 18px;
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.key,
+.value {
+  color: var(--primary);
+  display: block;
+}
+
+.value {
+  font-weight: 300;
+}
+
+.codes_Sec {
+  margin-top: 40px;
+  background-color: #eb60311c;
+}
+
+.sectionTitle {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.codes_Sec p {
+  color: var(--primary);
+}
+
+.PDFicon {
+  max-width: 30px;
+}
+
+.btn-outline {
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.btn-fill {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+th {
+  color: var(--primary);
+  opacity: 0.9;
+}
+
+.awards {
+  background-color: var(--primary);
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-color: transparent;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .innerContent {
+    width: 100%;
+  }
+
+  .value {
+    font-size: 15px;
+  }
+
+  th,
+  td {
+    font-size: 13px;
+  }
+
+  .tableBox {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 14px;
+  }
+}
