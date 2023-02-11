@@ -16,86 +16,6 @@ h6 {
   color: var(--primary);
 }
 
-.blue-text {
-  color: var(--primary);
-}
-
-.dark-text {
-  color: #9aa1c5;
-}
-
-.blue-paragraph {
-  color: #41486b;
-}
-
-.orange-text {
-  color: var(--secondary);
-}
-
-.desc-header {
-  max-width: 1400px;
-  padding-inline: 25px;
-  margin-inline: auto;
-}
-
-header ul {
-  list-style-type: none;
-  gap: 20px;
-  color: #3a4166;
-}
-
-header ul a {
-  font-size: 20px;
-  color: #3a4166;
-}
-
-@media (min-width: 768px) {
-  section {
-    background: #f6f8fe;
-  }
-}
-
-.custom-container {
-  max-width: 800px;
-  background: #fff;
-}
-
-.left-col {
-  max-width: 420px;
-}
-
-p {
-  margin-bottom: 0;
-}
-
-.secondary-heading {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.primary-paragraph {
-  font-size: 18px;
-}
-
-@media (max-width: 768px) {
-  .primary-paragraph {
-    font-size: 14px;
-  }
-
-  .secondary-heading {
-    font-size: 16px;
-  }
-}
-
-.form-left-col {
-  max-width: 235px;
-  width: 100%;
-}
-
-.fontOrange {
-  color: var(--secondary);
-}
-
 .header h1 {
   font-size: 22px;
   text-transform: uppercase;
@@ -115,22 +35,13 @@ p {
   background-color: #f6f8fe;
 }
 
-.innerContent {
-  width: 80%;
-  margin: 50px 0;
-  background-color: #fff;
-}
-
 .tableBox h2 {
   color: var(--secondary);
   font-size: 20px;
   font-weight: 600;
 }
 
-.tableBox p {
-  color: var(--primary);
-}
-
+.tableBox p,
 .department {
   color: var(--primary);
 }
@@ -165,7 +76,6 @@ p {
 .sectionTitle {
   font-size: 17px;
   font-weight: 600;
-  color: var(--primary);
 }
 
 .codes_Sec p {
@@ -196,21 +106,25 @@ th {
   color: #fff !important;
 }
 
+.key {
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .main {
     background-color: transparent;
   }
 
   .header h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .innerContent {
-    width: 100%;
+  .header p {
+    font-size: 14px;
   }
 
   .value {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   th,
@@ -218,8 +132,64 @@ th {
     font-size: 13px;
   }
 
-  .tableBox {
-    width: 50%;
+  .department li {
+    font-size: 14px;
+  }
+}
+
+.blue-text {
+  color: var(--primary);
+}
+
+.dark-text {
+  color: #9aa1c5;
+}
+
+.blue-paragraph {
+  color: #41486b;
+}
+
+.orange-text {
+  color: var(--secondary);
+}
+
+header ul {
+  list-style-type: none;
+  gap: 20px;
+  color: #3a4166;
+}
+
+header ul a {
+  font-size: 20px;
+  color: #3a4166;
+}
+
+@media (min-width: 768px) {
+  section {
+    background: #f6f8fe;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.secondary-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.primary-paragraph {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .primary-paragraph {
+    font-size: 14px;
+  }
+
+  .secondary-heading {
+    font-size: 16px;
   }
 }
 
